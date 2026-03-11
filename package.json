@@ -1,0 +1,11 @@
+﻿{
+  "name": "osoforniture-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple backend for OSO Furniture admin and orders management",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js"
+  }
+}
