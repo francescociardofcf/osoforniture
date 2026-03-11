@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Nordic Lounge Chair",
+      "category": "Seating",
+      "price": 449,
+      "stock": 8,
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "Linea Dining Table",
+      "category": "Tables",
+      "price": 980,
+      "stock": 1,
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "Cloud Modular Sofa",
+      "category": "Seating",
+      "price": 1780,
+      "stock": 0,
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "Arc Floor Lamp",
+      "category": "Lighting",
+      "price": 320,
+      "stock": 12,
+      "active": true
+    },
+    {
+      "id": "p5",
+      "name": "Oak Sideboard",
+      "category": "Storage",
+      "price": 1240,
+      "stock": 2,
+      "active": true
+    },
+    {
+      "id": "p6",
+      "name": "Pebble Coffee Table",
+      "category": "Tables",
+      "price": 630,
+      "stock": 6,
+      "active": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "4fa35979-6c3b-43ef-91b7-b88c2255677c",
+      "customerName": "Browser Test",
+      "customerEmail": "test@example.com",
+      "notes": "Automated verification",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Linea Dining Table",
+          "unitPrice": 980,
+          "qty": 1,
+          "lineTotal": 980
+        }
+      ],
+      "total": 980,
+      "status": "pending",
+      "createdAt": "2026-03-11T17:16:42.769Z",
+      "updatedAt": "2026-03-11T17:16:42.769Z"
+    },
+    {
+      "id": "2064a42a-ba7a-4103-86d1-44985eab7411",
+      "customerName": "fra vgrej",
+      "customerEmail": "franzussciardo@gmail.com",
+      "notes": "",
+      "items": [
+        {
+          "productId": "p2",
+          "name": "Linea Dining Table",
+          "unitPrice": 980,
+          "qty": 1,
+          "lineTotal": 980
+        }
+      ],
+      "total": 980,
+      "status": "pending",
+      "createdAt": "2026-03-11T17:09:52.332Z",
+      "updatedAt": "2026-03-11T17:09:52.333Z"
+    }
+  ]
+}
